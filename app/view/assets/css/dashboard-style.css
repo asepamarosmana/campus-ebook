@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.navbar {
+    background-color: rgb(30, 41, 59);
+    position: fixed;
+
+    top: 0;
+    left: 0;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    z-index: 1000;
+
+}
+
+.navbar img {
+    height: auto;
+    width: 160px;
+}
+
+.navbar-search {
+    margin-left: 20px;
+}
+
+.navbar-search input {
+    width: 300px;
+    height: 30px;
+}
+
+.sidebar {
+    background-color: rgb(30, 30, 47);
+    width: 200px;
+    height: calc(100vh - 80px);
+    position: fixed;
+    top: 80px;
+    left: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.sidebar a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 0;
+}
+
+.sidebar a:hover {
+    background-color: rgb(37, 99, 235);
+}
+
+
+.dashboard-container iframe {
+    position: fixed;
+    top: 80px;
+    left: 200px;
+    border: none;
+    width: calc(100% - 200px);
+    height: calc(100vh - 80px);
+}
+
+.sidebar-button {
+    margin-top: 350px;
+    text-align: center;
+}
+
+.sidebar-button button {
+    background-color: rgb(37, 99, 235);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.sidebar-button button:hover {
+    background-color: rgb(29, 78, 216);
+}
