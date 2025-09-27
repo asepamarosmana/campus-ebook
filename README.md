@@ -16,3 +16,8 @@ project-web-gdsc/
 │ │ ├── log-in.php
 │ │ └── content-book-list.php
 │── index.php
+
+## 🚀 Cara Menjalankan Project
+1. Clone repo:
+   ```bash
+   git clone https://github.com/asepamarosmana
