@@ -20,4 +20,33 @@ project-web-gdsc/
 ## 🚀 Cara Menjalankan Project
 1. Clone repo:
    ```bash
-   git clone https://github.com/asepamarosmana
+   git clone https://github.com/asepamarosmana/campus-ebook.git
+2. Pindah ke folder project:
+   ```bash
+   cd project-web-gdsc
+   
+3. Jalankan di server lokal (XAMPP/Laragon).
+
+4. Buka browser dan akses:
+   ```bash
+   http://localhost/campus-ebook
+
+Teknologi yang Digunakan
+
+HTML untuk struktur
+
+CSS (Flexbox + Media Query) untuk styling responsive
+
+PHP untuk server-side dan include file
+
+MySQL untuk database (opsional, jika digunakan)
+
+Catatan
+
+Pastikan sudah mengaktifkan server lokal (Apache + MySQL).
+
+Jika CSS/JS tidak berubah setelah update, gunakan query string versioning:
+```html
+<link rel="stylesheet" href="assets/css/style.css?v=2">
+   
+   
