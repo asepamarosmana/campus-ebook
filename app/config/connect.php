@@ -1,7 +1,7 @@
 <?php
  $hostname = "localhost";
  $username = "root";
- $password = "HouseRules12345";
+ $password = "";
  $database = "db_campus_ebook";
 
  $conn = mysqli_connect($hostname, $username, $password, $database);
