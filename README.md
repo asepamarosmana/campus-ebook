@@ -4,8 +4,8 @@ Sebuah project website sederhana, dengan fitur:
 - Struktur kode rapi dengan pemisahan file (HTML, CSS, PHP).
 
 ## 📂 Struktur Folder
-project-web-gdsc/
-│── app/
+
+ app/
 │ ├── config/ # File konfigurasi (contoh: connect.php)
 │ ├── view/ # File tampilan (navbar, halaman login, dll)
 │ │ ├── assets/
